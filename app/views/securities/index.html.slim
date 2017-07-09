@@ -1,0 +1,6 @@
+h3 R-Squared
+
+= simple_form_for @security, url: {controller: "securities", action: "create"} do |f|
+  = f.input :ticker_1
+  = f.input :ticker_2
+  = f.submit 'Submit'
